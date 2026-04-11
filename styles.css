@@ -1,0 +1,104 @@
+   
+    <style>
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    h3{
+        color: navy !important;
+    }
+    img {
+        pointer-events: none;
+    }
+
+
+    .form-label {
+        font-size: 12px !important;
+    }
+
+    @font-face {
+        font-family: "Java";
+        src: url('font/Javassoul.ttf') format("truetype");
+    }
+
+    @font-face {
+        font-family: "Paisley";
+        src: url('font/Paisley.otf') format("truetype");
+    }
+
+    .box-shadow-new {
+        filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
+    }
+
+    @import url("https://fonts.googleapis.com/css2?family=Joan&display=swap");
+
+    .svg-loading {
+        font-family: "Joan", sans-serif;
+        width: 100%;
+        height: 100%;
+    }
+
+    .svg-loading text {
+        animation: stroke 3s infinite alternate;
+        stroke-width: 0;
+        stroke: #009cd9;
+        font-size: 35px;
+    }
+
+    @keyframes stroke {
+        0% {
+            fill: rgba(72, 138, 204, 0);
+            stroke: rgba(54, 95, 160, 1);
+            stroke-dashoffset: 25%;
+            stroke-dasharray: 0 50%;
+            stroke-width: 1;
+        }
+
+        70% {
+            fill: rgba(72, 138, 204, 0);
+            stroke: rgba(54, 95, 160, 1);
+        }
+
+        80% {
+            fill: rgba(72, 138, 204, 0);
+            stroke: rgba(54, 95, 160, 1);
+            stroke-width: 1.5;
+        }
+
+        100% {
+            fill: rgba(72, 138, 204, 1);
+            stroke: rgba(54, 95, 160, 0);
+            stroke-dashoffset: -25%;
+            stroke-dasharray: 50% 0;
+            stroke-width: 0;
+        }
+    }
+
+    .elemen-tambah-edit {
+        margin: 20px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100px;
+        flex-direction: column;
+    }
+
+    .elemen-tambah-edit-text {
+        display: flex;
+        font-size: 12px;
+        color: #aaaaaa;
+        font-style: italic;
+    }
+
+    .elemen-tambah-edit-svg {
+        margin-top: 3px;
+        margin-right: 5px;
+    }
+
+    @media (min-width: 768px) {
+        .fix-menu {
+            max-width: 400px !important;
+        }
+    }
+</style>

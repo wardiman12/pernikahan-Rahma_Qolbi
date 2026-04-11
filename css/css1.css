@@ -1,0 +1,652 @@
+<style>
+/* START DEFAULT */
+h1,
+h2,
+h4,
+h5,
+h6,
+h3,
+.sparator {
+    font-family: 'Great Vibes', cursive;
+    color: violet !important;
+}
+
+h3,
+button {
+    font-family: 'Work Sans', sans-serif;
+}
+
+p,
+.font-p,
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+h1,
+h2 {
+    font-size: 35px;
+    pointer-events: none;
+    color: #ae8f7a;
+}
+
+h3,
+button {
+    color: #2e2e2e;
+}
+
+.c-acara-nm {
+    color: #fff !important;
+}
+
+p,
+.font-p,
+body {
+    color: #2e2e2e;
+    font-size: 12px;
+}
+
+.bg-primary {
+    background-color: #ae8f7a;
+}
+
+.btn {
+    color: white;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: fit-content;
+    background-color: #ae8f7a;
+    border-style: none;
+    border-radius: 2px;
+    color: rgb(255, 255, 255);
+    height: auto;
+    font-size: 12px;
+    padding: 6px 18px;
+}
+
+.sparator {
+    font-size: 45px;
+}
+
+.c-salam-agama-p {
+    color: #a5a5a5;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.box-head {
+    padding: 80px 20px;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.box-1-a {
+    color: #5b4447;
+    font-size: 15px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 15px
+}
+
+.foto-pria-s {
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 200px;
+    height: 200px;
+    border-radius: 175px;
+    overflow: hidden;
+    background: url('nikah/upload/1952/1679297306foto_pria.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.foto-pria-frame {
+    width: 270px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: -211px;
+}
+
+.foto-wanita-s {
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 200px;
+    height: 200px;
+    border-radius: 175px;
+    overflow: hidden;
+    background: url('nikah/upload/9347d2caf037c1fdc9ed16897f92cf1a.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.foto-wanita-frame {
+    width: 270px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: -211px;
+}
+
+.c-sampul-bg {
+    width: 180px;
+    height: 180px;
+    border-radius: 100px;
+    margin: 0 auto;
+    margin-top: 10px;
+    background: url('nikah/upload/a4b41960052f899378ed6a9a47f1c0d2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.c-sampul-frame {
+    position: relative;
+    width: 230px;
+    margin: 0 auto;
+    margin-top: -184.5px;
+}
+
+
+.c-acara-box {
+    background: url('nikah/template/pandora/pandora-classic/PC-BG.jpg');
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center center;
+    padding: 20px 5px 20px 5px;
+}
+
+.c-acara-section {
+    margin-bottom: -250px;
+    height: 350px;
+    width: 100%;
+    background: url('nikah/upload/galery/1679297398.jpeg') no-repeat;
+    background-position: center top;
+    background-size: cover !important;
+}
+
+.footer-div-style {
+    position: relative;
+    z-index: 2;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: -190px;
+    padding-bottom: 95px;
+    border-radius: 5px;
+}
+
+
+.header1-story {
+    font-size: 25px;
+    color: #333333 !important;
+    font-weight: 600;
+}
+
+.box-save-date {
+    /* width: 90%; */
+    margin: 0 auto;
+    padding-bottom: 50px;
+    border-radius: 5px;
+    z-index: 1 !important;
+    position: relative;
+}
+
+.story-card {
+    background-color: #fff9ed;
+    padding: 40px 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.story-img {
+    border-radius: 10px;
+}
+
+.story-p {
+    padding: 10px;
+    line-height: 16px;
+}
+
+.susunan-card {
+    padding: 25px 10px;
+    margin-bottom: 20px;
+    text-align: left;
+    background-color: #dfdfdf;
+    border-radius: 5px;
+}
+
+
+/* END DEFAULT */
+
+.pojok-kiri-atas1 {
+    width: 150px;
+    top: 0px !important;
+    left: 0px !important;
+    z-index: 9 !important;
+}
+
+.titip-hadiah {
+    font-size: 32px !important;
+    color: #ae8f7a;
+}
+
+.titip_hadiah_cli {
+    text-align: center;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+.circle-rela {
+    position: relative;
+    background-color: #ae8f7a;
+    clip-path: circle();
+    width: 160px;
+    margin: 0 auto;
+    height: 160px;
+}
+
+.circle-img {
+    width: 150px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+}
+
+#tombol_kirim_2 {
+    color: #fff;
+    border: 2px solid #ae8f7a !important;
+}
+
+.box-pengantin {
+    padding: 60px 20px;
+    border-radius: 10px;
+    color: #eeeeee;
+    background: #72727217;
+}
+
+.ucapan {
+    margin-top: -2px !important;
+}
+
+.fix-menu {
+    background-color: #ae8f7a !important;
+}
+
+#fh5co-footer {
+    background-color: #ae8f7a !important;
+}
+
+#animasi_ucapan {
+    background-color: #ffffff;
+}
+
+#nama_tamu {
+    font-weight: 800;
+    text-align: left;
+    color: #54595f !important;
+}
+
+#ucapan_tamu {
+    color: #54595f !important;
+}
+
+.ucapan .form-control {
+    background-color: #fff !important;
+    border-radius: 8px !important;
+    border: none !important;
+    border-bottom: 1px solid #6D8998 !important;
+}
+
+.form-label {
+    font-size: 20px !important;
+}
+
+.form-ucapan h2 {
+    /* color: #fff !important; */
+}
+
+
+.box-ucapan {
+    color: rgb(48, 48, 48);
+}
+
+#nama_tamu {
+    color: rgb(33, 33, 33);
+}
+
+.fh5co-section-gray {
+    background-color: transparent;
+}
+
+.shadow {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+#fh5co-footer {
+    background-color: #fff;
+}
+
+.devider1 {
+    margin-top: -54px;
+    margin-bottom: -29px;
+}
+
+.pojok-kiri-atas1 {
+    position: absolute;
+    width: 150px;
+    top: -90px;
+    left: -50px;
+    transform: rotate(-20deg);
+}
+
+.pojok-kiri-atas2 {
+    position: absolute;
+    width: 200px;
+    top: -120px;
+    left: -50px;
+    transform: rotate(-30deg);
+}
+
+.kanan-bawah1 {
+    position: absolute;
+    width: 150px;
+    top: 700px;
+    right: -50px;
+    transform: rotate(-20deg);
+}
+
+.kanan-bawah2 {
+    position: absolute;
+    width: 200px;
+    top: 600px;
+    right: -50px;
+    transform: rotate(-30deg);
+}
+
+.box-1 {
+    height: auto;
+    background: url('nikah/template/pandora/pandora-classic/PC-Atas.png') no-repeat center center;
+    background-position: center top, center bottom;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #fdf9f6;
+    min-height: 100vh;
+    contain: content;
+}
+
+.box-2 {
+    height: auto;
+    background: url('nikah/template/pandora/pandora-classic/PC-BG.jpg');
+    background-position: center top, center bottom;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #fdf9f6;
+    contain: content;
+}
+
+.btn-success {
+    background: #ae8f7a;
+    color: #fff;
+    border: none;
+    border-bottom: 2px solid #ae8f7a;
+    border-radius: 10px;
+}
+
+#our-gallery-id4 {
+    color: violet !important !important;
+}
+
+.c-story-h1#fun-h1-id4a,
+#our-gallery-id3,
+#our-gallery-id1,
+#our-gallery-id4,
+.image-list-content p {
+    color: #fff !important;
+}
+
+.box-3 {
+    height:auto;
+    background: url('nikah/template/pandora/pandora-classic/PC-BG.jpg');
+    background-position: center top, center bottom;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #ae8f7a;
+    contain: content;
+
+
+.box-4 {
+    height: auto;
+    background: url('nikah/template/pandora/pandora-classic/PC-BG.jpg');
+    background-position: center top, center bottom;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #fdf9f6;
+    contain: content;
+}
+
+.box-5 {
+    height: auto;
+    background: url('nikah/template/pandora/pandora-classic/PC-BG.jpg');
+    background-position: center top, center bottom;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #fdf9f6;
+    contain: content;
+}
+
+.box-6 {
+    height: auto;
+    background: url('nikah/template/pandora/pandora-classic/PC-Bawah.png');
+    background-position: center top;
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-color: #ae8f7a;
+    contain: content;
+}
+
+.box-51 {
+    height: auto;
+    background: url('nikah/template/pandora/pandora-classic/PC-BG.jpg');
+    background-position: center top, center bottom;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #fdf9f6;
+    contain: content;
+}
+
+
+
+.midle-vertikal {
+    height: 100%;
+    padding: 200px 20px;
+}
+
+.bg-gradient {
+    background: none !important;
+}
+
+.simply-countdown>.simply-section {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    background: #ae8f7a;
+    margin: 0 4px;
+    -webkit-border-radius: 10px !important;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    border-radius: 10px;
+    position: relative;
+    animation: pulse 1s ease infinite;
+}
+
+.simply-countdown>.simply-section .simply-amount,
+.simply-countdown>.simply-section .simply-word {
+    color: #fff !important;
+}
+
+.simply-amount {
+    font-size: 20px !important;
+    margin-top: -25px;
+}
+
+.simply-word {
+    font-size: 10px !important;
+}
+
+.elementor-shape {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    line-height: 0;
+    direction: ltr;
+}
+
+.button-black {}
+
+.awal {
+    background: url('nikah/template/pandora/pandora-classic/PC-BG.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #fdf9f6;
+    z-index: 999999;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+    height: 100vh;
+}
+
+.head {
+    background: linear-gradient(-45deg, #0000007d, #0000008a),
+        url('nikah/upload/9181142d7f5b0a2f99b24f2a54502e4c.jpg') no-repeat center;
+    background-size: 80vh;
+    height: 80vh;
+
+}
+
+.head2 {
+    background: linear-gradient(-45deg, #0000007d, #0000008a),
+        url('nikah/upload/9347d2caf037c1fdc9ed16897f92cf1a.jpg') no-repeat center;
+    background-size: 80vh;
+    height: 100vh;
+
+}
+
+.motif {
+    background: url('nikah/template/beautiful-white/patern.jpg') repeat center;
+    background-color: #828282;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+@keyframes shrink {
+    0% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.is-active {
+    animation: shrink 7s;
+}
+
+
+.kanan-bawah {
+    width: 150px;
+    right: 0px;
+    position: absolute;
+    float: right;
+    bottom: 0px;
+    z-index: 1 !important;
+}
+
+.kanan-bawah- {
+    width: 150px;
+    position: absolute;
+    z-index: 1 !important;
+    bottom: 0px;
+    left: 0;
+}
+
+.kanan-atas {
+    z-index: 1 !important;
+    position: absolute;
+    width: 150px;
+    top: 0px;
+    float: right;
+    right: 0px;
+}
+
+.home- {
+    width: 100px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1 !important;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.mempelai-eg {
+    font-size: 35px;
+}
+
+.acara-eg {
+    font-size: 30px;
+}
+
+.btn-profile-acara-default {
+    color: white !important;
+}
+
+.btn-profile-acara-default svg path {
+    fill: white !important;
+}
+
+.susunan-h1 {
+    color: #ae8f7a
+}
+</style>

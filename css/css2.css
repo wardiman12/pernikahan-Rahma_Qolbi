@@ -1,0 +1,371 @@
+<style>
+/* Burgundy-Acara  */
+.c_acara1 {
+    box-shadow: #2f2f30 !important;
+}
+
+.c_acara_p {
+    color: #2e2e2e !important;
+}
+
+.c_acara_2 {
+    background-color: #ae8f7a !important;
+}
+
+.c_acara_box {
+    background-color: #fff !important;
+}
+
+.bwhAcara {
+    background-color: #ae8f7a !important;
+}
+
+.c_acara_h3 {
+    color: #fff !important;
+}
+
+.c_acara_h4 {
+    color: #ae8f7a !important;
+}
+
+.c_acara_h {
+    color: #ae8f7a !important;
+}
+
+.btn-success1 {
+    background: #ae8f7a !important;
+    color: #2e2e2e !important;
+    border: 2px solid #ae8f7a !important;
+}
+
+/* END Burgundy-Acara */
+
+/* Minimalist */
+.memp {
+    -webkit-text-stroke: 0.5px #ae8f7a;
+    color: #ae8f7a !important;
+}
+
+.memp1 {
+    color: #ae8f7a !important;
+    -webkit-text-stroke: 0.2px #ae8f7a;
+}
+
+.nma_acaraU {
+    color: #ae8f7a !important;
+    -webkit-text-stroke: 0.2px #ae8f7a;
+}
+
+.mempelai-fish {
+    color: #ae8f7a !important;
+}
+
+.acara-fish {
+    color: #ae8f7a !important;
+}
+
+/* Mempelai */
+.detail-pengantin {
+    font-size: 13.5px;
+    color: #2e2e2e !important;
+    margin-top: 10px !important;
+}
+
+.mempelai_dataW {
+    color: #ae8f7a;
+    font-weight: bold;
+    text-align: end;
+    position: relative;
+}
+
+.mempelai_dataP {
+    color: #ae8f7a;
+    font-weight: bold;
+    position: relative;
+    text-align: start;
+}
+
+.data-mempelai-nama {
+    font-size: 20px;
+    color: #ae8f7a !important;
+    font-weight: 900;
+    margin-top: 5px;
+}
+
+.btn-success {
+    background: #ae8f7a;
+    color: #fff;
+    border: 2px solid #ae8f7a;
+}
+
+/* End Mempelai */
+
+/* Acara */
+.c-acara-nm {
+    font-size: 30px !important;
+    margin-top: 20px;
+}
+
+.nama_acara {
+    font-size: 25px;
+    margin-bottom: 15px;
+    color: #ae8f7a;
+    font-weight: bold;
+}
+
+.hari_acara {
+    font-size: 20px;
+    color: #2e2e2e;
+}
+
+.jam_acara {
+    font-size: 15px;
+    font-weight: bold;
+    color: #2e2e2e;
+}
+
+.alamat_acara {
+    font-size: 14.5px;
+    color: #2e2e2e;
+}
+
+/* end acara */
+/* END Minimalist */
+
+/* Elegan Gold */
+.c_acara1_eg {
+    background-color: #ae8f7a !important;
+}
+
+.c_acara1_eg1 {
+    background-color: #fff !important;
+}
+
+.ac_h1_eg {
+    color: #ae8f7a !important;
+}
+
+.ac_h1_egc {
+    color: #ae8f7a !important;
+}
+
+.ac_h1_egc {
+    color: #ae8f7a !important;
+}
+
+.ac_h1_eg1 {
+    color: #ae8f7a !important;
+    text-stroke: 1px #ae8f7a;
+    -webkit-text-stroke: 1px #ae8f7a;
+}
+
+.p_ac_eg1 {
+    color: #2e2e2e !important;
+}
+
+.pnggir-h3-acgl {
+    color: #ae8f7a !important;
+}
+
+.tgh-h3-acgl {
+    color: #ae8f7a !important;
+    border-left: 1px solid #ae8f7a;
+    border-right: 1px solid #ae8f7a;
+}
+
+.tengah-h3-acg {
+    color: #ae8f7a !important;
+}
+
+.bwh_egl {
+    background-color: #ae8f7a;
+}
+
+.bwh-memp {
+    color: #ae8f7a !important;
+}
+
+.btn-successEG {
+    background: transparent;
+    color: #ae8f7a;
+    border: 2px solid #ae8f7a;
+}
+
+.sv-egl {
+    color: #ae8f7a !important;
+}
+
+/* Else */
+
+/* Instagram */
+.insta {
+    background: #ae8f7a;
+    color: #2e2e2e;
+    border: 1.5px solid #ae8f7a;
+    fill: #2e2e2e;
+}
+
+.instaflo {
+    background: #ae8f7a;
+    color: #ae8f7a;
+    border: 1.5px solid #ae8f7a;
+    fill: #ae8f7a;
+}
+
+.instaM {
+    background: #ae8f7a;
+    color: #ae8f7a;
+    border: 1.5px solid #ae8f7a;
+    fill: #ae8f7a;
+}
+
+/* End Instagram */
+
+.mempe-gl1 {
+    color: #ae8f7a !important;
+}
+
+.dataMep {
+    /* color: #2e2e2e !important; */
+}
+
+.dataMepac {
+    color: #2e2e2e !important;
+    border-bottom: 2px solid #2e2e2e;
+}
+
+.dataMepp {
+    color: #fff !important;
+}
+
+.nmp {
+    /* Nama Mempelai Acara */
+    color: #ae8f7a;
+    -webkit-text-stroke: 1px #ae8f7a;
+    text-stroke: 1px #ae8f7a;
+}
+
+.hex {
+    margin: 0 auto;
+    background-size: cover;
+    display: flex;
+    position: relative;
+    width: 220px;
+    height: 255px;
+    background-color: #424242;
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.hari_tanggal {
+    color: #2e2e2e;
+}
+
+/* Luxury-Cream */
+.ac_h3_eg {
+    color: #fff;
+}
+
+.ac_h3_egc {
+    color: #ae8f7a;
+}
+
+.ac_h3_eg1 {
+    color: #2e2e2e;
+}
+
+.choco-svd {
+    background: #fff !important;
+}
+
+.choco-svd-h1 {
+    color: #ae8f7a !important;
+}
+
+.btn-primary {
+    background: #ae8f7a !important;
+    color: #2e2e2e !important;
+    border: 2px solid #ae8f7a !important;
+}
+
+.memp-hfl {
+    color: #fff !important;
+}
+
+.memp-hfld {
+    color: #ae8f7a !important;
+}
+
+.sparator {
+    color: #ae8f7a !important;
+}
+
+.ha-samping-ea {
+    color: #fff !important;
+    border-bottom: 2px solid #fff;
+    border-top: 2px solid #fff;
+}
+
+.ha-tengah-ea {
+    color: #fff !important;
+}
+
+.c-story-h1 {
+    color: #ae8f7a !important;
+}
+
+.c-story-h3 {
+    color: #2e2e2e !important;
+}
+
+.ft-mep {
+    border: 5px solid #ae8f7a;
+}
+
+.hr1 {
+    border: 1px solid #ae8f7a;
+}
+
+.box-pria {
+    min-height: 860px;
+    background: url('nikah/template/bee-classic/EB 2.jpg'), url('https://nikah/template/bee-classic/EB 3.jpg');
+    */ background: url('nikah/upload/1952/1679297306foto_pria.jpeg') no-repeat center;
+    background-position: center top, center bottom;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #ae8f7a;
+    contain: content;
+    margin-top: -20px;
+}
+
+.box-wanita {
+    min-height: 860px;
+    background: url('nikah/template/bee-classic/EB 2.jpg'), url('nikah/template/bee-classic/EB 3.jpg');
+    */ background: url('nikah/upload/1952/1679297306foto_wanita.jpeg') no-repeat center;
+    background-position: center top, center bottom;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #ae8f7a;
+    contain: content;
+    margin-top: -20px;
+}
+
+.stry-title {
+    border-bottom: 1.5px solid #ae8f7a;
+    color: #2e2e2e;
+}
+
+.heading-str {
+    color: #2e2e2e;
+}
+
+.text-str {
+    color: #2e2e2e;
+}
+</style>
